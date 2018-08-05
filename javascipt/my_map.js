@@ -1,0 +1,1 @@
+// Implement the Array.prototype.map function in JavaScript.
