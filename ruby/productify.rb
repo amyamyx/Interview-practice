@@ -2,5 +2,5 @@
 # numberswith the product of all other numbers.Do this
 # in O(n) time without using division.
 
-def producify(arr)
+def productify(arr)
 end

@@ -2,6 +2,6 @@
 // numberswith the product of all other numbers.Do this
 // in O(n) time without using division.
 
-function producify(arr) {
+function productify(arr) {
 
 };
