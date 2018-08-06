@@ -16,11 +16,12 @@ function caesarWord(word, shift) {
     oldIdx = letters.indexOf(ch);
     newIdx = (oldIdx % 26 + shift) % 26;
     newIdx += oldIdx < 26 ? 0 : 26;
-    
+
     return letters[newIdx];
   }).join("");
 
   return newWord;
 };
 
-console.log(caesarCipher('abc abc xyz ABC DEF', 1));
+console.log(caesarCipher('abc xyz ABC XYZ', 1));
+// 'bcd yza BCD YZA'
