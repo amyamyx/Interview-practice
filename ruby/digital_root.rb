@@ -4,4 +4,8 @@
 # "digital root". Do not use string conversion within your method.
 
 def digital_root(num)
+  return num if num < 10
+  digital_root(num.to_s.chars.map(&:to_i).reduce(:+))
 end
+
+p digital_root(99)
